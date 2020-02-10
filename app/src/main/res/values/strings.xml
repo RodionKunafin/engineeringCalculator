@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">engineeringCalculator</string>
+    <string name="textView"></string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn0">0</string>
+    <string name="btnPoint">.</string>
+    <string name="btnSin">sin</string>
+    <string name="btnCos">cos</string>
+    <string name="btnTan">tan</string>
+    <string name="btnLg">lg</string>
+    <string name="btnLn">ln</string>
+    <string name="openingBracket">(</string>
+    <string name="closingBracket">)</string>
+    <string name="deg">deg</string>
+    <string name="e">e</string>
+    <string name="changeOfView">Смена вида</string>
+    <string name="returnAll">вернуть</string>
+</resources>
