@@ -53,15 +53,16 @@ public class MainActivity extends AppCompatActivity {
             resultField.setText(resultField.getText().toString() + "9");
         }
     }
-    public void dotPress(View v){
+
+    public void dotPress(View v) {
         int id = v.getId();
-        if (id==R.id.btnPoint){
+        if (id == R.id.btnPoint) {
             resultField.setText(resultField.getText().toString() + ".");
         }
     }
 
     private void initViews() {
-        resultField  = findViewById(R.id.resultField);
+        resultField = findViewById(R.id.resultField);
         btnPoint = findViewById(R.id.btnPoint);
         changeOfView = findViewById(R.id.changeOfView);
         changeOfView_1 = findViewById(R.id.changeOfView_1);
@@ -69,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
         changeOfView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                findViewById(R.id.L1).setVisibility(View.VISIBLE);
                 findViewById(R.id.L2).setVisibility(View.GONE);
             }
         });
@@ -77,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 findViewById(R.id.L2).setVisibility(View.VISIBLE);
-                findViewById(R.id.L1).setVisibility(View.GONE);
             }
         });
 
