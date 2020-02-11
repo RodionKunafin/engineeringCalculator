@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 findViewById(R.id.L1).setVisibility(View.VISIBLE);
+                findViewById(R.id.L2).setVisibility(View.GONE);
             }
         });
 
