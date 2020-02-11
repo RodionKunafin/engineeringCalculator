@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView resultField;
     private Button btnPoint;
     Button changeOfView;
-    Button returnAll;
+    Button changeOfView_1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,12 +64,20 @@ public class MainActivity extends AppCompatActivity {
         resultField  = findViewById(R.id.resultField);
         btnPoint = findViewById(R.id.btnPoint);
         changeOfView = findViewById(R.id.changeOfView);
+        changeOfView_1 = findViewById(R.id.changeOfView_1);
 
         changeOfView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 findViewById(R.id.L1).setVisibility(View.VISIBLE);
                 findViewById(R.id.L2).setVisibility(View.GONE);
+            }
+        });
+        changeOfView_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                findViewById(R.id.L2).setVisibility(View.VISIBLE);
+                findViewById(R.id.L1).setVisibility(View.GONE);
             }
         });
 

@@ -142,7 +142,23 @@
                 android:textSize="24sp" />
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/changeOfView.1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:backgroundTint="#4CAF50"
+                android:text="@string/changeOfView"
+                android:textSize="20sp" />
+
+        </LinearLayout>
     </LinearLayout>
+
 
     <LinearLayout
         android:id="@+id/L2"
